@@ -1,4 +1,4 @@
-import { Backdrop, Github } from "@/components/layout";
+import { Backdrop, Github } from "@/features/home";
 
 export function Nav() {
   return (

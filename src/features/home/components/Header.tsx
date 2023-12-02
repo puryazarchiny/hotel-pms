@@ -1,5 +1,5 @@
 import { Box, Wrapper } from "@/components/containers";
-import { Logo, Nav, Spacer } from "@/components/layout";
+import { Logo, Nav, Spacer } from "@/features/home";
 
 export function Header() {
   return (

@@ -1,5 +1,5 @@
 import { Box, Wrapper } from "@/components/containers";
-import { Backdrop, Spacer } from "@/components/layout";
+import { Backdrop, Spacer } from "@/features/home";
 
 export function Footer() {
   return (

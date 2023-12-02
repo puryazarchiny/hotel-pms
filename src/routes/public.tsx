@@ -1,6 +1,6 @@
-import { LandingRoute } from "@/features/landing";
+// import { Home } from "@/features/home";
 
 export const publicRoutes = [
-  { path: "/", element: <LandingRoute /> },
-  { path: "/auth/*", element: <div>AuthRoutes</div> },
+  // { path: "/", element: <Home /> },
+  // { path: "/sign-in", element: <div>SignIn</div> },
 ];

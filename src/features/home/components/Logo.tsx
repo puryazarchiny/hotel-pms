@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import { Backdrop } from "@/components/layout";
+import { Backdrop } from "@/features/home";
 
 export function Logo() {
   return (
