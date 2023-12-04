@@ -10,7 +10,7 @@ export function Aside() {
   return (
     <aside>
       <nav>
-        <ul className="grid gap-4 py-4">
+        <ul className="grid py-4">
           <Li to="/">
             <HomeIcon className="h-6 w-6 text-gray-700" />
             <span>Home</span>
