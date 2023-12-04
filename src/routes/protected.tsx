@@ -1,7 +1,9 @@
+import { Dashboard } from "@/features/dashboard";
+
 export const protectedRoutes = [
   {
     path: "/",
-    element: <div>Dashboard</div>,
+    element: <Dashboard />,
     children: [
       { index: true, element: <div>DashboardHome</div> },
       { path: "bookings", element: <div>Bookings</div> },

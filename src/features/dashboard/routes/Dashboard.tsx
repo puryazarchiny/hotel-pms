@@ -1,21 +1,20 @@
-import { Footer, Header, Main } from "@/features/home";
+import { Box } from "@/components";
+import { Header, Main } from "@/features/dashboard";
 import { useRootElement } from "@/hooks";
 
-export function Home() {
+export function Dashboard() {
   useRootElement(`
     background-color: #e5e7eb;
     display: grid;
     font-family: Wotfard, sans-serif;
-    grid-template-rows: auto 1fr auto;
     min-height: 100vh;
     padding: 16px;
   `);
 
   return (
-    <>
+    <Box className="grid grid-rows-[auto_1fr] gap-4 rounded-xl bg-gray-300 p-4">
       <Header />
       <Main />
-      <Footer />
-    </>
+    </Box>
   );
 }

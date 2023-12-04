@@ -1,0 +1,16 @@
+import { Box } from "@/components";
+import { Github, Logo, Spacer, Wrapper } from "@/features/home";
+
+export function Header() {
+  return (
+    <header>
+      <Wrapper>
+        <Box className="grid grid-cols-[auto_1fr_auto]">
+          <Logo />
+          <Spacer className="rounded-t-xl" />
+          <Github />
+        </Box>
+      </Wrapper>
+    </header>
+  );
+}

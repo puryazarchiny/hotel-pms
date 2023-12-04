@@ -1,10 +1,10 @@
 import { ReactNode } from "react";
 
 interface BoxProps {
+  className?: string;
   children: ReactNode;
-  classes?: string;
 }
 
-export function Box({ children, classes }: BoxProps) {
-  return <div className={classes}>{children}</div>;
+export function Box({ className, children }: BoxProps) {
+  return <div className={className}>{children}</div>;
 }

@@ -1,15 +1,15 @@
-import { Box, Wrapper } from "@/components/containers";
-import { Backdrop, Spacer } from "@/features/home";
+import { Box } from "@/components";
+import { Backdrop, Spacer, Wrapper } from "@/features/home";
 
 export function Footer() {
   return (
     <footer>
       <Wrapper>
-        <Box classes="flex">
-          <Spacer classes="rounded-b-xl" />
+        <Box className="grid grid-cols-[1fr_auto_1fr]">
+          <Spacer className="rounded-b-xl" />
 
           <Backdrop>
-            <p className="rounded-t-xl bg-gray-200 p-3 text-[#24292f]">
+            <p className="rounded-t-xl bg-gray-200 p-3 text-gray-700">
               Made with ♥ by{" "}
               <a
                 href="https://github.com/puryazarchiny"
@@ -21,7 +21,7 @@ export function Footer() {
             </p>
           </Backdrop>
 
-          <Spacer classes="rounded-b-xl" />
+          <Spacer className="rounded-b-xl" />
         </Box>
       </Wrapper>
     </footer>
