@@ -20,8 +20,8 @@ export function Main() {
               </h1>
 
               <Link
-                to="/auth/login"
-                className="self-start rounded border border-gray-200 bg-sky-500 px-4 py-3 text-gray-100 duration-500 hover:bg-gray-300 hover:text-sky-500"
+                to="/login"
+                className="self-start rounded border border-gray-200 bg-sky-500 px-4 py-3 text-gray-200 duration-500 hover:bg-gray-300 hover:text-sky-500"
               >
                 Get Started
               </Link>

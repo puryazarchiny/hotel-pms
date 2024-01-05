@@ -2,5 +2,5 @@
 
 export const publicRoutes = [
   // { path: "/", element: <Home /> },
-  // { path: "/sign-in", element: <div>SignIn</div> },
+  // { path: "/login", element: <div>SignIn</div> },
 ];
