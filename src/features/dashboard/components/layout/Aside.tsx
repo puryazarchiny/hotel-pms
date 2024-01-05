@@ -13,23 +13,27 @@ export function Aside() {
         <ul className="grid py-4">
           <Li to="/">
             <HomeIcon className="h-6 w-6 text-gray-700" />
-            <span>Home</span>
+            Home
           </Li>
+
           <Li to="/bookings">
             <CalendarDaysIcon className="h-6 w-6 text-gray-700" />
-            <span>Bookings</span>
+            Bookings
           </Li>
+
           <Li to="/users">
             <UsersIcon className="h-6 w-6 text-gray-700" />
-            <span>Users</span>
+            Users
           </Li>
+
           <Li to="/rooms">
             <BuildingOfficeIcon className="h-6 w-6 text-gray-700" />
-            <span>Rooms</span>
+            Rooms
           </Li>
+
           <Li to="/settings">
             <Cog6ToothIcon className="h-6 w-6 text-gray-700" />
-            <span>Settings</span>
+            Settings
           </Li>
         </ul>
       </nav>
