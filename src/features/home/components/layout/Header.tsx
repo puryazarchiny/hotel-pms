@@ -1,5 +1,5 @@
 import { Box } from "@/components";
-import { Github, Logo, Spacer, Wrapper } from "@/features/home";
+import { GitHub, Logo, Spacer, Wrapper } from "@/features/home";
 
 export function Header() {
   return (
@@ -8,7 +8,7 @@ export function Header() {
         <Box className="grid grid-cols-[auto_1fr_auto]">
           <Logo />
           <Spacer className="rounded-t-xl" />
-          <Github />
+          <GitHub />
         </Box>
       </Wrapper>
     </header>

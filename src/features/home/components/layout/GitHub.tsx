@@ -2,7 +2,7 @@ import githubMark from "@/assets/images/github-mark.svg";
 import { Box } from "@/components";
 import { Backdrop } from "@/features/home";
 
-export function Github() {
+export function GitHub() {
   return (
     <Backdrop>
       <Box className="rounded-bl-xl bg-gray-200 p-3">
