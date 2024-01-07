@@ -21,9 +21,9 @@ export function Aside() {
             Bookings
           </Li>
 
-          <Li to="/users">
+          <Li to="/guests">
             <UsersIcon className="h-6 w-6 text-gray-700" />
-            Users
+            Guests
           </Li>
 
           <Li to="/rooms">
