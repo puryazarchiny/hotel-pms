@@ -1,6 +1,6 @@
-// import { Home } from "@/features/home";
+import { Home } from "@/features/home";
 
 export const publicRoutes = [
-  // { path: "/", element: <Home /> },
-  // { path: "/login", element: <div>SignIn</div> },
+  { path: "/", element: <Home /> },
+  { path: "/login", element: <div>SignIn</div> },
 ];
