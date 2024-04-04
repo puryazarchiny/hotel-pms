@@ -1,11 +1,10 @@
-import { Box } from "@/components";
 import { Backdrop, Spacer, Wrapper } from "@/features/home";
 
 export function Footer() {
   return (
     <footer>
       <Wrapper>
-        <Box className="grid grid-cols-[1fr_auto_1fr]">
+        <div className="grid grid-cols-[1fr_auto_1fr]">
           <Spacer className="rounded-b-xl" />
 
           <Backdrop>
@@ -22,7 +21,7 @@ export function Footer() {
           </Backdrop>
 
           <Spacer className="rounded-b-xl" />
-        </Box>
+        </div>
       </Wrapper>
     </footer>
   );

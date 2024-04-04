@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 import hotelPMS from "@/assets/images/hotel-pms.png";
-import { Box } from "@/components";
 import { Wrapper } from "@/features/home";
 
 export function Main() {
@@ -9,12 +8,12 @@ export function Main() {
     <main>
       <section className="h-full">
         <Wrapper>
-          <Box className="grid h-full justify-items-center rounded-t-xl bg-gray-300 p-4">
-            <Box className="self-center">
+          <div className="grid h-full justify-items-center rounded-t-xl bg-gray-300 p-4">
+            <div className="self-center">
               <img src={hotelPMS} alt="Hotel PMS" />
-            </Box>
+            </div>
 
-            <Box className="grid grid-rows-[auto_1fr] justify-items-center gap-8">
+            <div className="grid grid-rows-[auto_1fr] justify-items-center gap-8">
               <h1 className="text-center text-3xl font-bold text-gray-700">
                 Hotel Property Management System
               </h1>
@@ -25,8 +24,8 @@ export function Main() {
               >
                 Get Started
               </Link>
-            </Box>
-          </Box>
+            </div>
+          </div>
         </Wrapper>
       </section>
     </main>
