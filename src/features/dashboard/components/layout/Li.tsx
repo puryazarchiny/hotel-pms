@@ -2,20 +2,21 @@ import { ReactNode } from "react";
 import { NavLink } from "react-router-dom";
 
 interface LiProps {
-  to: string;
   children: ReactNode;
+  to: string;
 }
 
-export function Li({ to, children }: LiProps) {
+export function Li({ children, to }: LiProps) {
+  const active =
+    "grid w-64 grid-cols-[auto_1fr] gap-x-4 rounded border border-gray-200 bg-gray-200 p-3 text-gray-700";
+  const notActive =
+    "grid w-64 grid-cols-[auto_1fr] gap-x-4 rounded border border-gray-300 p-3 text-gray-700 hover:border-gray-200";
+
   return (
     <li>
       <NavLink
         to={to}
-        className={({ isActive }) =>
-          isActive
-            ? "grid w-64 grid-cols-[auto_1fr] gap-4 rounded border border-gray-200 bg-sky-500 p-3 text-gray-200"
-            : "grid w-64 grid-cols-[auto_1fr] gap-4 border border-gray-300 p-3 text-gray-700 hover:text-sky-500"
-        }
+        className={({ isActive }) => (isActive ? active : notActive)}
       >
         {children}
       </NavLink>
