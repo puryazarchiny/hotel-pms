@@ -3,6 +3,7 @@ import {
   CalendarDaysIcon,
   Cog6ToothIcon,
   HomeIcon,
+  UserGroupIcon,
   UsersIcon,
 } from "@heroicons/react/24/solid";
 
@@ -23,14 +24,19 @@ export function Aside() {
             Bookings
           </Li>
 
-          <Li to="/guests">
-            <UsersIcon className="h-6 w-6" />
-            Guests
-          </Li>
-
           <Li to="/rooms">
             <BuildingOfficeIcon className="h-6 w-6" />
             Rooms
+          </Li>
+
+          <Li to="/guests">
+            <UserGroupIcon className="h-6 w-6" />
+            Guests
+          </Li>
+
+          <Li to="/users">
+            <UsersIcon className="h-6 w-6" />
+            Users
           </Li>
 
           <Li to="/settings">
