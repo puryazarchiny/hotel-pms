@@ -16,9 +16,7 @@ export function Header() {
               🛎️ Hotel PMS
             </Link>
           </div>
-
           <div className="SPACER | rounded-t-2xl bg-gray-300"></div>
-
           <div className="BACKDROP | bg-gray-300">
             <div className="CONTAINER | rounded-bl-2xl bg-gray-200 p-3">
               <a

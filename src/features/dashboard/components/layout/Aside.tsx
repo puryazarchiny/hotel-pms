@@ -18,27 +18,22 @@ export function Aside() {
             <HomeIcon className="h-6 w-6" />
             Home
           </Li>
-
           <Li to="/bookings">
             <CalendarDaysIcon className="h-6 w-6" />
             Bookings
           </Li>
-
           <Li to="/rooms">
             <BuildingOfficeIcon className="h-6 w-6" />
             Rooms
           </Li>
-
           <Li to="/guests">
             <UserGroupIcon className="h-6 w-6" />
             Guests
           </Li>
-
           <Li to="/users">
             <UsersIcon className="h-6 w-6" />
             Users
           </Li>
-
           <Li to="/settings">
             <Cog6ToothIcon className="h-6 w-6" />
             Settings
