@@ -1,1 +1,3 @@
-export const SUPABASE_KEY = "";
+export const SUPABASE_KEY: string =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZrd2NrdGp1cWNqcHZhb3FyYmNoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTIzNjI3NjgsImV4cCI6MjAyNzkzODc2OH0.7iUXREMeTaPSFCFn5Qc5jQt1yXsoTysSLoWdVynV_i0";
+export const SUPABASE_URL: string = "https://vkwcktjuqcjpvaoqrbch.supabase.co";
