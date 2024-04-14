@@ -1,11 +1,15 @@
-import { useEffect } from "react";
+import { useQuery } from "@tanstack/react-query";
 
+import { Table } from "@/components";
 import { getRooms } from "@/features/rooms";
 
 export function Rooms() {
-  useEffect(() => {
-    getRooms().then((data) => console.log(data));
+  const { data: rooms } = useQuery({
+    queryKey: ["rooms"],
+    queryFn: getRooms,
   });
 
-  return <div>Rooms</div>;
+  console.log(rooms);
+
+  return <Table />;
 }

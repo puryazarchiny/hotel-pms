@@ -3,7 +3,10 @@ import { Header, Main } from "@/features/dashboard";
 export function Dashboard() {
   const root = document.getElementById("root")!;
 
-  root.setAttribute("class", "grid min-h-screen bg-gray-200 p-4 font-wotfard");
+  root.setAttribute(
+    "class",
+    "grid grid-rows-[1fr_auto] min-h-screen bg-gray-200 p-4 font-wotfard",
+  );
 
   return (
     <div className="grid grid-rows-[auto_1fr] gap-y-4 rounded-2xl bg-gray-300 p-4">
