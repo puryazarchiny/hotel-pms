@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         caveat: ["Caveat", "sans-serif"],
-        wotfard: ["Wotfard", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },

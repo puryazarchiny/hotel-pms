@@ -4,11 +4,30 @@
 
 @font-face {
   font-family: "Caveat";
-  font-weight: bold;
+  font-weight: 700;
   src: url("@/assets/fonts/Caveat-Bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Wotfard";
-  src: url("@/assets/fonts/Wotfard-Regular.woff2") format("woff2");
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: url("@/assets/fonts/Montserrat-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url("@/assets/fonts/Montserrat-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  src: url("@/assets/fonts/Montserrat-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: url("@/assets/fonts/Montserrat-Bold.woff2") format("woff2");
 }

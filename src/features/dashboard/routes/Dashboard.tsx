@@ -5,7 +5,7 @@ export function Dashboard() {
 
   root.setAttribute(
     "class",
-    "grid grid-rows-[1fr_auto] min-h-screen bg-gray-200 p-4 font-wotfard",
+    "grid grid-rows-[1fr_auto] min-h-screen bg-gray-200 p-4 font-montserrat",
   );
 
   return (
