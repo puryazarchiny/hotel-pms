@@ -31,3 +31,25 @@
   font-weight: 700;
   src: url("@/assets/fonts/Montserrat-Bold.woff2") format("woff2");
 }
+
+.SPINNER span {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #0284c7;
+  border-radius: 50%;
+  transform: rotate(calc(var(--i) * (360deg / 15))) translateY(35px);
+  opacity: 0;
+  animation: animate 1.5s linear infinite;
+  animation-delay: calc(var(--i) * 0.1s);
+}
+
+@keyframes animate {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

@@ -15,7 +15,7 @@ export function Table({ caption, headers, rows }: TableProps) {
   ));
 
   const tableRows = rows
-    .map((row) => Object.values(row).map((data) => String(data)))
+    .map((row) => Object.values(row))
     .map((row) => (
       <tr key={row[0]} className="odd:bg-gray-300 even:bg-gray-200">
         {row.map((data, index) => (

@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 
-import { Table } from "@/components";
+import { Spinner, Table } from "@/components";
 import { getRooms } from "@/features/rooms";
 
 export interface Room {
@@ -43,11 +43,7 @@ export function Rooms() {
 
   switch (status) {
     case "pending":
-      return (
-        <p className="flex h-full items-center justify-center text-xl font-bold text-gray-600">
-          Loading...
-        </p>
-      );
+      return <Spinner />;
 
     case "error":
       return (
