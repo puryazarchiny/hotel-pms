@@ -10,12 +10,12 @@ export function Main() {
         <Wrapper>
           <div className="CONTAINER | flex h-full flex-col items-center justify-center gap-8 rounded-t-2xl bg-gray-300 p-4">
             <img src={hotelPMS} alt="Hotel PMS" />
-            <h1 className="text-center text-3xl font-bold text-gray-700">
+            <h1 className="text-center text-3xl font-semibold text-gray-700">
               Hotel Property Management System
             </h1>
             <Link
               to="/login"
-              className="rounded border border-sky-500 bg-sky-500 px-4 py-3 text-gray-200 duration-500 hover:bg-gray-300 hover:text-sky-500"
+              className="rounded border border-sky-600 bg-sky-600 px-4 py-3 text-gray-200 hover:bg-gray-300 hover:text-sky-600"
             >
               Get Started
             </Link>

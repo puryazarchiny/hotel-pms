@@ -8,9 +8,9 @@ interface LiProps {
 
 export function Li({ children, to }: LiProps) {
   const active =
-    "grid w-64 grid-cols-[auto_1fr] gap-x-4 rounded border border-gray-200 bg-gray-200 p-3 text-gray-700";
+    "grid w-64 grid-cols-[auto_1fr] gap-x-4 rounded bg-sky-600 p-3 text-gray-200 font-semibold";
   const notActive =
-    "grid w-64 grid-cols-[auto_1fr] gap-x-4 rounded border border-gray-300 p-3 text-gray-700 hover:border-gray-200";
+    "grid w-64 grid-cols-[auto_1fr] gap-x-4 rounded p-3 text-gray-700 hover:bg-[rgba(156,163,175,.2)] font-semibold";
 
   return (
     <li>

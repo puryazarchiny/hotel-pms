@@ -11,7 +11,7 @@ export function Header() {
           <div className="BACKDROP | bg-gray-300">
             <Link
               to="/"
-              className="flex rounded-br-2xl bg-gray-200 p-3 font-caveat text-3xl font-bold text-gray-700"
+              className="flex rounded-br-2xl bg-gray-200 p-3 font-caveat text-3xl text-gray-700"
             >
               🛎️ Hotel PMS
             </Link>

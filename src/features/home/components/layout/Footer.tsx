@@ -12,7 +12,7 @@ export function Footer() {
               <a
                 href="https://github.com/puryazarchiny"
                 target="_blank"
-                className="font-caveat text-xl font-bold"
+                className="bg-gray-700 font-caveat text-xl"
               >
                 Purya Zarchiny
               </a>
