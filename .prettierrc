@@ -1,4 +1,3 @@
 {
-  "plugins": ["prettier-plugin-tailwindcss"],
-  "tailwindAttributes": ["classes"]
+  "plugins": ["prettier-plugin-tailwindcss"]
 }

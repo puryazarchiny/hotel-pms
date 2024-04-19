@@ -15,7 +15,7 @@ export function Main() {
             </h1>
             <Link
               to="/login"
-              className="rounded border border-sky-600 bg-sky-600 px-4 py-3 text-gray-200 hover:bg-gray-300 hover:text-sky-600"
+              className="rounded border-2 border-sky-600 bg-sky-600 px-4 py-3 font-medium text-gray-200 hover:bg-gray-300 hover:text-sky-600"
             >
               Get Started
             </Link>
